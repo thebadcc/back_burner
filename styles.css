@@ -36,6 +36,8 @@ html {
 }
 
 #qrcode img {
-  border-radius: 5px;   
+  border-radius: 5px;  
+  height: 100px;
+  width: 100px;
 }
 
