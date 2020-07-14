@@ -6,7 +6,7 @@
 }
 
 html {
-  background: url("https://ipfs.infura.io/ipfs/Qmamvq8cqnvDvLqrhcqFmGuTfhY4nBcz7J8zrAdWWgAN6e") no-repeat center center fixed;
+  background: url("https://ipfs.infura.io/ipfs/Qmd42ASCijzkTREMvN8hrNbvFBf6zHKHzGZFN8WXjAbnWQ/asset.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -14,6 +14,7 @@ html {
 }
 
 #logo.p {
+   
    font-size: 6vw;
    margin: 100px;
    color: white;   
