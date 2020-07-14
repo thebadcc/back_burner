@@ -1,5 +1,8 @@
-$("#qr2").ClassyQR({
-    create: true,
-    type: 'text',
-    text: 'This is the text to embed'
+var qrcode = new QRCode("test", {
+    text: "http://jindo.dev.naver.com/collie",
+    width: 128,
+    height: 128,
+    colorDark : "#000000",
+    colorLight : "#ffffff",
+    correctLevel : QRCode.CorrectLevel.H
 });
