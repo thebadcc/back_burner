@@ -1,5 +1,5 @@
 @font-face {
-    font-family: EchoDeco;
+    font-family: F16;
     src: url("../EchoDeco.ttf") format('truetype');
     font-weight: bold;
     font-style: normal;
@@ -14,7 +14,7 @@ html {
 }
 
 #logo p {
-   font-family: EchoDeco;
+   font-family: f16;
    font-size: 5vw;
    margin: 100px;
    color: white;   
