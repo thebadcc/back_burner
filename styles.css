@@ -51,6 +51,8 @@ html {
   border-bottom-left-radius: 5px;
 }
 
+$th_pink:#E84A5F;
+$th_dark:#2a363b;
 
 header {  
   nav {
