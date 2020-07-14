@@ -67,7 +67,6 @@ html, body {
  
 .navbar-buttons {
   position: relative;
-  width: 155px;
   display: flex;
   justify-content: space-between;
   align-items: center;
