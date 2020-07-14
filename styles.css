@@ -26,10 +26,13 @@ html {
   position: absolute;
   bottom: 0;
   left: 0;
+  padding-bottom: 100px;
 }
 
 #qrcode {
   float: right;
+  margin-right: 4vw;
+  
 }
 
 #qrcode img {
