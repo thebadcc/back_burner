@@ -12,3 +12,9 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+#logo.p {
+   font-size: 6vw;
+   margin: 100px;
+   color: white;   
+}
