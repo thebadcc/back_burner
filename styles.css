@@ -1,1 +1,4 @@
-
+body {
+  background-image: url("http://ipfs.infura.io/ipfs/QmUyqQtavZNVhRzajikjQc1rYsv5Tut5KDEmeaRgvAe148/asset.jpeg"), url("paper.gif");
+  background-color: #cccccc;
+}
