@@ -7,7 +7,7 @@
 
 #logo p {
    font-family: F16;
-   font-size: 5vw;
+   font-size: 7vw;
    color: white;   
 }
 
@@ -50,14 +50,14 @@ html, body {
   height: 100%;
   width: 100%;
   margin: 0;
-  background: url("https://ipfs.infura.io/ipfs/Qmd42ASCijzkTREMvN8hrNbvFBf6zHKHzGZFN8WXjAbnWQ/asset.png") no-repeat center center fixed;
+  background: url("https://ipfs.infura.io/ipfs/QmYjKRpzSfmk36yGcR8p1Qa99AzZrMbXRZzfpX2kn9z1qe") no-repeat center center fixed;
   background-position: 50% 10%;
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
 }
 
 .navbar {
-  height: 90px;
+  height: 190px;
   width: 100%;
   display: flex;
   justify-content: space-between;
