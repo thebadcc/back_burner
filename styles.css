@@ -1,3 +1,10 @@
+@font-face {
+    font-family: F16;
+    src: url("../SubSkipper/F16_Panel Font.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 html {
   background: url("https://ipfs.infura.io/ipfs/Qmamvq8cqnvDvLqrhcqFmGuTfhY4nBcz7J8zrAdWWgAN6e") no-repeat center center fixed;
   -webkit-background-size: cover;
