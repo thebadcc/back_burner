@@ -51,7 +51,7 @@ html, body {
   height: 100%;
   width: 100%;
   margin: 0;
-  background: url("https://ipfs.infura.io/ipfs/Qmd42ASCijzkTREMvN8hrNbvFBf6zHKHzGZFN8WXjAbnWQ/asset.png") no-repeat;
+  background: url("https://ipfs.infura.io/ipfs/Qmd42ASCijzkTREMvN8hrNbvFBf6zHKHzGZFN8WXjAbnWQ/asset.png") no-repeat center center fixed;
   background-position: 50% 10%;
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
