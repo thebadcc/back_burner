@@ -1,8 +1,6 @@
-var qrcode = new QRCode("test", {
-    text: "http://jindo.dev.naver.com/collie",
-    width: 128,
-    height: 128,
-    colorDark : "#000000",
-    colorLight : "#ffffff",
-    correctLevel : QRCode.CorrectLevel.H
-});
+var typeNumber = 4;
+var errorCorrectionLevel = 'L';
+var qr = qrcode(typeNumber, errorCorrectionLevel);
+qr.addData('Hi!');
+qr.make();
+document.getElementById('qrcode').innerHTML = qr.createImgTag();
