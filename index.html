@@ -7,20 +7,30 @@
   </head>
   <body>
     <header>
-      <input type='checkbox' id='toggle' style='display:none;' />
-      <label class='toggle-btn toggle-btn__cross' for='toggle'>
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </label>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact me</a></li>
-        </ul>
-      </nav>
+     
+      <div class="navbar">
+  <img class="logo" src="images/logo.png" alt="Foss Logo"/>
+ 
+  <div class="navbar-buttons">
+    <button class="button" type="button" name="button">SIGN IN</button>
+    <span><img class="open-menu" src="images/menu.svg" alt=""/></span>
+  </div>
+</div>
+ 
+<!-- Overlay Navigation Menu -->
+<div class="overlay">
+  <h2 class="nav-title">Navigation</h2>
+  <nav class="overlay-menu">
+    <ul>
+      <li><a href="#">Our Store</a></li>
+      <li><a href="#">Catalog</a></li>
+      <li><a href="#">Delivery</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><img class="close-menu" src="images/close.svg" alt=""/></li>
+    </ul>
+  </nav>
+</div>
+      
     <div id="header">
       <div id="logo">
         <p>thebadcc</p>  
