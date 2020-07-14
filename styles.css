@@ -13,7 +13,7 @@ html {
   background-size: cover;
 }
 
-#logo.p {
+#logo p {
    font-family: EchoDeco;
    font-size: 5vw;
    margin: 100px;
