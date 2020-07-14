@@ -1,12 +1,12 @@
 @font-face {
     font-family: F16;
-    src: url("../font/EchoDeco.ttf") format('truetype');
+    src: url("/font/EchoDeco.ttf") format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 #logo p {
-   font-family: f16;
+   font-family: F16;
    font-size: 5vw;
    color: white;   
 }
