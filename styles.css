@@ -1,5 +1,5 @@
 html {
-  background-image: url("http://ipfs.infura.io/ipfs/QmUyqQtavZNVhRzajikjQc1rYsv5Tut5KDEmeaRgvAe148/asset.jpeg") no-repeat center center fixed; 
+  background: url("http://ipfs.infura.io/ipfs/QmUyqQtavZNVhRzajikjQc1rYsv5Tut5KDEmeaRgvAe148/asset.jpeg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
