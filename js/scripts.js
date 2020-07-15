@@ -21,7 +21,7 @@ xhr.addEventListener("readystatechange", function () {
     var e = JSON.parse(this.responseText)
     var f = Math.floor(Math.random() * 15);
     var g = e.assets[f].image_original_url;
-    console.log(g);
+    console.log(e);
     document.body.style.backgroundImage = "url(" + g + ")";
   }
 });
