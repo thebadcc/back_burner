@@ -23,9 +23,9 @@ xhr.addEventListener("readystatechange", function () {
   }
 });
 xhr.open("GET", "https://api.opensea.io/api/v1/assets?owner=0x844289f123E2284a57Bc18264115548d91CC7597&asset_contract_address=0xfbeef911dc5821886e1dda71586d90ed28174b7d&asset_contract_addresses=%5B%5D&order_direction=desc&offset=0&limit=20");
-xhr.send(data);
 
-var e = responseText.assets[1];
+
+var e = xhr.send(data).assets[1];
 console.log(e);
 var f = "https://ipfs.infura.io/ipfs/Qmb9s7oM9Ym9Z2LmEfLNyUScacskQxcDyzwKKh9fzBgubk/asset.jpeg";
 document.body.style.backgroundImage = "url(" + f + ")";
