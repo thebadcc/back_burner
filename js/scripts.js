@@ -25,9 +25,9 @@ xhr.addEventListener("readystatechange", function () {
     var i = e.assets[f].traits.length;
     console.log(i);
     if (i > 2) {
-    var j = e.assets[f].traits[2];
+    var j = e.assets[f].traits[2].value;
     } else {
-    var j = e.assets[f].traits[1];  
+    var j = e.assets[f].traits[1].value;  
     }
     console.log(j);
     var k =  h + " by " + j;
