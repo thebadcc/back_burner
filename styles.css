@@ -17,8 +17,6 @@
    color: white;   
 }
 
-
-
 #footer {
   width: 100%;
   position: absolute;
@@ -34,7 +32,7 @@ html, body {
   height: 100%;
   width: 100%;
   margin: 0;
-  background: url("https://cloudflare-ipfs.com/ipfs/QmbKWq3ADUjZYc7Ltrn2DQpBXFxFkvzYVZtJbb945pyHwD") no-repeat center center fixed;
+  background: url("https://firebasestorage.googleapis.com/v0/b/thing-1d2be.appspot.com/o/token%2Fasset-1587744210701?alt=media&token=b8f3b4a1-6420-4c39-b9d0-687dac6f9ec2") no-repeat center center fixed;
   background-position: 50% 10%;
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
