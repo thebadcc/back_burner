@@ -7,3 +7,5 @@ $(document).ready(function() {
     $('.overlay').removeClass('open');
   });
 });
+
+document.getElementById("demo").innerHTML = Math.floor(Math.random() * 2) + 1;
