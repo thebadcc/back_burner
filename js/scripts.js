@@ -19,13 +19,13 @@ var xhr = new XMLHttpRequest();
 xhr.addEventListener("readystatechange", function () {
   if (this.readyState === this.DONE) {
     var e = JSON.parse(this.responseText)
-    var f = e.assets[0];
-    console.log(f);
+    var f = Math.floor(Math.random() * 15);
+    var g = e.assets[f].image_original_url;
+    console.log(g);
+    document.body.style.backgroundImage = "url(" + g + ")";
   }
 });
 xhr.open("GET", "https://api.opensea.io/api/v1/assets?owner=0x844289f123E2284a57Bc18264115548d91CC7597&asset_contract_address=0xfbeef911dc5821886e1dda71586d90ed28174b7d&asset_contract_addresses=%5B%5D&order_direction=desc&offset=0&limit=20");
 xhr.send();
 
-var g = "https://ipfs.infura.io/ipfs/Qmb9s7oM9Ym9Z2LmEfLNyUScacskQxcDyzwKKh9fzBgubk/asset.jpeg";
-document.body.style.backgroundImage = "url(" + g + ")";
 
