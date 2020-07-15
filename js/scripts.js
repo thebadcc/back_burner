@@ -22,7 +22,7 @@ xhr.addEventListener("readystatechange", function () {
     var f = Math.floor(Math.random() * 15);
     var g = e.assets[f].image_original_url;
     var h = e.assets[f].name;
-    var i = e.assets[f].traits.length;
+    var i = e.assets[f].traits;
     if (i = 4) {
     var j = e.assets[f].traits[2];
     } else {
