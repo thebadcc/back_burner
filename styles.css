@@ -5,9 +5,15 @@
     font-style: normal;
 }
 
-#logo p {
+#logo-top p {
    font-family: F16;
    font-size: 7vw;
+   color: white;   
+}
+
+#logo-bottom p {
+   font-family: F16;
+   font-size: 3vw;
    color: white;   
 }
 
