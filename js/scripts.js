@@ -29,7 +29,7 @@ xhr.addEventListener("readystatechange", function () {
     var j = e.assets[f].traits[1];  
     }
     var k =  h + " by " + j;
-    console.log(j);
+    console.log(i);
     document.body.style.backgroundImage = "url(" + g + ")";
     document.getElementById('attribution').innerHTML = k
   }
