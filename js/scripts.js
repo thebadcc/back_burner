@@ -21,8 +21,12 @@ xhr.addEventListener("readystatechange", function () {
     var e = JSON.parse(this.responseText)
     var f = Math.floor(Math.random() * 15);
     var g = e.assets[f].image_original_url;
+    var h = e.assets[f].name;
+    var i = e.assets[f].traits[2].value;
+    var j =  h + " by " + i
     console.log(e);
     document.body.style.backgroundImage = "url(" + g + ")";
+    document.getElementById('attribution').innerHTML = j
   }
 });
 xhr.open("GET", "https://api.opensea.io/api/v1/assets?owner=0x844289f123E2284a57Bc18264115548d91CC7597&asset_contract_address=0xfbeef911dc5821886e1dda71586d90ed28174b7d&asset_contract_addresses=%5B%5D&order_direction=desc&offset=0&limit=20");
