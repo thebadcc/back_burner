@@ -26,4 +26,5 @@ xhr.open("GET", "https://api.opensea.io/api/v1/assets?owner=0x844289f123E2284a57
 xhr.send();
 
 var g = "https://ipfs.infura.io/ipfs/Qmb9s7oM9Ym9Z2LmEfLNyUScacskQxcDyzwKKh9fzBgubk/asset.jpeg";
+
 document.body.style.backgroundImage = "url(" + g + ")";
