@@ -1,12 +1,12 @@
 @font-face {
-    font-family: F16;
+    font-family: F1;
     src: url("font/EchoDeco.ttf") format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
-    font-family: F17;
+    font-family: F2;
     src: url("font/EmeraldGrey-DxXW.ttf") format('truetype');
     font-weight: bold;
     font-style: normal;
