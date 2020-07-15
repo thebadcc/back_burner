@@ -8,4 +8,8 @@ $(document).ready(function() {
   });
 });
 
-document.getElementById("demo").innerHTML = Math.floor(Math.random() * 2) + 1;
+var a = Math.floor(Math.random() * 2) + 1;
+var b = "F" + b;
+var c = document.getElementById('logo'); //Keeping it unobstrusive
+c.style.fontSize = b;
+  
