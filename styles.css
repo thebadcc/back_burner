@@ -5,14 +5,21 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: F17;
+    src: url("font/EchoDeco.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
 #logo p {
-   font-family: F16;
    font-size: 7vw;
    color: white;   
 }
 
 #attribution p {
-   font-family: F16;
    text-align: center;
    color: white;   
 }
