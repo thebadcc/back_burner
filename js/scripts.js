@@ -22,7 +22,7 @@ xhr.addEventListener("readystatechange", function () {
     var f = Math.floor(Math.random() * 15);
     var g = e.assets[f].image_original_url;
     var h = e.assets[f].name;
-    var i = e.assets[f].traits[2].value;
+    var i = e.assets[f].traits[2];
     var j =  h + " by " + i
     console.log(e);
     document.body.style.backgroundImage = "url(" + g + ")";
