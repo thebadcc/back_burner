@@ -15,7 +15,7 @@ var d = document.getElementById("attribution");
 c.style.fontFamily = b;
 d.style.fontFamily = b;  
 
-var data = responseText;
+
 var xhr = new XMLHttpRequest();
 xhr.addEventListener("readystatechange", function () {
   if (this.readyState === this.DONE) {
