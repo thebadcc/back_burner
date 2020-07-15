@@ -9,7 +9,7 @@ $(document).ready(function() {
 });
 
 var a = Math.floor(Math.random() * 2) + 1;
-var b = "F" + b;
+var b = "F" + a;
 var c = document.getElementById('logo'); //Keeping it unobstrusive
 c.style.fontSize = b;
   
