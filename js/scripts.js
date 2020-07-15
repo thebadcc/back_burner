@@ -26,10 +26,10 @@ xhr.addEventListener("readystatechange", function () {
     if (i = 4) {
     var j = e.assets[f].traits[2];
     } else {
-    var j = e.assets[f].traits[1]  
+    var j = e.assets[f].traits[1];  
     }
     var k =  h + " by " + j;
-    console.log(k);
+    console.log(i);
     document.body.style.backgroundImage = "url(" + g + ")";
     document.getElementById('attribution').innerHTML = k
   }
