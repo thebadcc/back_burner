@@ -12,6 +12,42 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: F3;
+    src: url("font/Freakshow.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: F4;
+    src: url("font/GoodTimes.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: F5;
+    src: url("font/PricedownBlock.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: F6;
+    src: url("font/RunyTunes.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: F7;
+    src: url("font/StillTime.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
 #logo {
    font-size: 7vw;
    color: white;   
