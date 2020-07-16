@@ -8,7 +8,7 @@ $(document).ready(function() {
   });
 });
 
-var a = Math.floor(Math.random() * 7) + 1;
+var a = Math.floor(Math.random() * 6) + 1;
 var b = "F" + a;
 var c = document.getElementById("logo");
 var d = document.getElementById("attribution");
