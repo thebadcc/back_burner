@@ -19,7 +19,7 @@ var xhr = new XMLHttpRequest();
 xhr.addEventListener("readystatechange", function () {
   if (this.readyState === this.DONE) {
     var e = JSON.parse(this.responseText)
-    var f = Math.floor(Math.random() * 15);
+    var f = Math.floor(Math.random() * 17) + 1;
     var g = e.assets[f].image_original_url;
     var h = e.assets[f].name;
     var i = e.assets[f].traits.length;
