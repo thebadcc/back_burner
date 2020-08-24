@@ -28,9 +28,7 @@ xhr.addEventListener("readystatechange", function () {
     var j = e.assets[f].traits[1].value;  
     }
     console.log(j);
-    var k =  h + " by " + j;
     document.body.style.backgroundImage = "url(" + g + ")";
-    document.getElementById('attribution').innerHTML = k
   }
 });
 xhr.open("GET", "https://api.opensea.io/api/v1/assets?owner=0x844289f123E2284a57Bc18264115548d91CC7597&asset_contract_address=0xfbeef911dc5821886e1dda71586d90ed28174b7d&asset_contract_addresses=%5B%5D&order_direction=desc&offset=0&limit=20");
